@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/blockchain"
+	"github.com/polygomic/polygomic-edge/helper/progress"
+	"github.com/polygomic/polygomic-edge/state/runtime"
+	"github.com/polygomic/polygomic-edge/types"
 	"github.com/stretchr/testify/assert"
 )
 

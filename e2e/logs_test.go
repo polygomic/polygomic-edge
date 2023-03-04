@@ -8,11 +8,11 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/polygomic/polygomic-edge/e2e/framework"
+	"github.com/polygomic/polygomic-edge/helper/hex"
+	"github.com/polygomic/polygomic-edge/helper/tests"
+	"github.com/polygomic/polygomic-edge/types"
+	"github.com/polygomic/polygomic-edge/validators"
 
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/sha3"

@@ -7,8 +7,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/syncer/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/syncer/proto"
+	"github.com/polygomic/polygomic-edge/types"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

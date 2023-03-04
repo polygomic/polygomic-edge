@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/command"
+	"github.com/polygomic/polygomic-edge/helper/hex"
+	"github.com/polygomic/polygomic-edge/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
 
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
+	"github.com/polygomic/polygomic-edge/e2e/framework"
+	"github.com/polygomic/polygomic-edge/helper/tests"
 	"github.com/stretchr/testify/assert"
 )
 

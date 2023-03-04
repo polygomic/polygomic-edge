@@ -10,12 +10,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/network/grpc"
-	"github.com/0xPolygon/polygon-edge/syncer/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/blockchain"
+	"github.com/polygomic/polygomic-edge/network"
+	"github.com/polygomic/polygomic-edge/network/event"
+	"github.com/polygomic/polygomic-edge/network/grpc"
+	"github.com/polygomic/polygomic-edge/syncer/proto"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 var (
