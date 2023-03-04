@@ -20,8 +20,8 @@ case "$1" in
             --dir "$GENESIS_PATH" \
             --consensus ibft \
             --ibft-validators-prefix-path data- \
-            --bootnode /dns4/node-1/tcp/1478/p2p/$(echo $secrets | jq -r '.[0] | .node_id') \
-            --bootnode /dns4/node-2/tcp/1478/p2p/$(echo $secrets | jq -r '.[1] | .node_id')
+            --bootnode /dns4/node-1/tcp/30342/p2p/$(echo $secrets | jq -r '.[0] | .node_id') \
+            --bootnode /dns4/node-2/tcp/30342/p2p/$(echo $secrets | jq -r '.[1] | .node_id')
           echo "Genesis file has been successfully generated"
       fi
       ;;

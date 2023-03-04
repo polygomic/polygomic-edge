@@ -47,7 +47,7 @@ const (
 	defaultBucketSize = 20
 	DefaultDialRatio  = 0.2
 
-	DefaultLibp2pPort int = 1478
+	DefaultLibp2pPort int = 30342
 
 	MinimumBootNodes       int   = 1
 	MinimumPeerConnections int64 = 1
