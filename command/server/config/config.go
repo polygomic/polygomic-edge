@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/network"
 	"github.com/hashicorp/hcl"
+	"github.com/polygomic/polygomic-edge/network"
 	"gopkg.in/yaml.v3"
 )
 

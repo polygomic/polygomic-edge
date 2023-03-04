@@ -7,16 +7,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/armon/go-metrics"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/polygomic/polygomic-edge/blockchain"
+	"github.com/polygomic/polygomic-edge/chain"
+	"github.com/polygomic/polygomic-edge/network"
+	"github.com/polygomic/polygomic-edge/state"
+	"github.com/polygomic/polygomic-edge/txpool/proto"
+	"github.com/polygomic/polygomic-edge/types"
 	"google.golang.org/grpc"
 )
 

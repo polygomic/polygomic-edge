@@ -3,8 +3,8 @@ package evm
 import (
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
+	"github.com/polygomic/polygomic-edge/chain"
+	"github.com/polygomic/polygomic-edge/state/runtime"
 )
 
 var _ runtime.Runtime = &EVM{}

@@ -1,4 +1,4 @@
-module github.com/0xPolygon/polygon-edge
+module github.com/polygomic/polygomic-edge
 
 go 1.18
 

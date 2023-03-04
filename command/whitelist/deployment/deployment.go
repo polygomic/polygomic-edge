@@ -3,7 +3,7 @@ package deployment
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/polygomic/polygomic-edge/command"
 	"github.com/spf13/cobra"
 )
 

@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/polygomic/polygomic-edge/crypto"
+	testHelper "github.com/polygomic/polygomic-edge/helper/tests"
+	"github.com/polygomic/polygomic-edge/types"
+	"github.com/polygomic/polygomic-edge/validators"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -8,12 +8,12 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/umbracle/fastrlp"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/chain"
+	"github.com/polygomic/polygomic-edge/helper/common"
+	"github.com/polygomic/polygomic-edge/helper/progress"
+	"github.com/polygomic/polygomic-edge/state"
+	"github.com/polygomic/polygomic-edge/state/runtime"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 type ethTxPoolStore interface {

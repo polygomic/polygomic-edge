@@ -3,11 +3,11 @@ package backup
 import (
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/archive"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
+	"github.com/polygomic/polygomic-edge/archive"
+	"github.com/polygomic/polygomic-edge/command"
+	"github.com/polygomic/polygomic-edge/command/helper"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 const (

@@ -3,8 +3,8 @@ package signer
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/polygomic/polygomic-edge/types"
+	"github.com/polygomic/polygomic-edge/validators"
 	"github.com/umbracle/fastrlp"
 )
 

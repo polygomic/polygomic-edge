@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/polygomic/polygomic-edge/command/helper"
+	"github.com/polygomic/polygomic-edge/helper/common"
 )
 
 type IBFTQuorumResult struct {

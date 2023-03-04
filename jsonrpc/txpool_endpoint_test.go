@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/types"
 
 	"github.com/stretchr/testify/assert"
 )

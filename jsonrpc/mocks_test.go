@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/blockchain"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 type mockAccount struct {

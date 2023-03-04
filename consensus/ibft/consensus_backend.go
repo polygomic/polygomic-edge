@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/0xPolygon/go-ibft/messages"
-	"github.com/0xPolygon/polygon-edge/consensus"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/consensus"
+	"github.com/polygomic/polygomic-edge/consensus/ibft/signer"
+	"github.com/polygomic/polygomic-edge/helper/hex"
+	"github.com/polygomic/polygomic-edge/state"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 func (i *backendIBFT) BuildProposal(blockNumber uint64) []byte {

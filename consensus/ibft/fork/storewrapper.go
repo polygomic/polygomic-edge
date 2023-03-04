@@ -3,12 +3,12 @@ package fork
 import (
 	"path/filepath"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
-	"github.com/0xPolygon/polygon-edge/validators/store/contract"
-	"github.com/0xPolygon/polygon-edge/validators/store/snapshot"
 	"github.com/hashicorp/go-hclog"
+	"github.com/polygomic/polygomic-edge/consensus/ibft/signer"
+	"github.com/polygomic/polygomic-edge/validators"
+	"github.com/polygomic/polygomic-edge/validators/store"
+	"github.com/polygomic/polygomic-edge/validators/store/contract"
+	"github.com/polygomic/polygomic-edge/validators/store/snapshot"
 )
 
 // SnapshotValidatorStoreWrapper is a wrapper of store.SnapshotValidatorStore

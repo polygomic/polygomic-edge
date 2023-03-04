@@ -7,10 +7,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/server/proto"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
+	"github.com/polygomic/polygomic-edge/helper/common"
+	"github.com/polygomic/polygomic-edge/server/proto"
+	"github.com/polygomic/polygomic-edge/types"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

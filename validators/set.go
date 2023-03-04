@@ -3,7 +3,7 @@ package validators
 import (
 	"encoding/json"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/types"
 	"github.com/umbracle/fastrlp"
 )
 

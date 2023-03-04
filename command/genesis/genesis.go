@@ -3,12 +3,12 @@ package genesis
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/genesis/predeploy"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/polygomic/polygomic-edge/command"
+	"github.com/polygomic/polygomic-edge/command/genesis/predeploy"
+	"github.com/polygomic/polygomic-edge/command/helper"
+	"github.com/polygomic/polygomic-edge/consensus/ibft"
+	"github.com/polygomic/polygomic-edge/helper/common"
+	"github.com/polygomic/polygomic-edge/validators"
 	"github.com/spf13/cobra"
 )
 

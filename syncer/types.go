@@ -7,12 +7,12 @@ import (
 
 	rawGrpc "google.golang.org/grpc"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/polygomic/polygomic-edge/blockchain"
+	"github.com/polygomic/polygomic-edge/helper/progress"
+	"github.com/polygomic/polygomic-edge/network"
+	"github.com/polygomic/polygomic-edge/network/event"
+	"github.com/polygomic/polygomic-edge/types"
 	"google.golang.org/protobuf/proto"
 )
 

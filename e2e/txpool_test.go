@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/txpool"
+	"github.com/polygomic/polygomic-edge/txpool"
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	txpoolOp "github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/golang/protobuf/ptypes/any"
+	"github.com/polygomic/polygomic-edge/crypto"
+	"github.com/polygomic/polygomic-edge/e2e/framework"
+	"github.com/polygomic/polygomic-edge/helper/tests"
+	txpoolOp "github.com/polygomic/polygomic-edge/txpool/proto"
+	"github.com/polygomic/polygomic-edge/types"
 	"github.com/stretchr/testify/assert"
 )
 

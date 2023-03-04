@@ -4,17 +4,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/fork"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	stakingHelper "github.com/0xPolygon/polygon-edge/helper/staking"
-	"github.com/0xPolygon/polygon-edge/server"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/polygomic/polygomic-edge/chain"
+	"github.com/polygomic/polygomic-edge/command"
+	"github.com/polygomic/polygomic-edge/command/helper"
+	"github.com/polygomic/polygomic-edge/consensus/ibft"
+	"github.com/polygomic/polygomic-edge/consensus/ibft/fork"
+	"github.com/polygomic/polygomic-edge/consensus/ibft/signer"
+	"github.com/polygomic/polygomic-edge/contracts/staking"
+	stakingHelper "github.com/polygomic/polygomic-edge/helper/staking"
+	"github.com/polygomic/polygomic-edge/server"
+	"github.com/polygomic/polygomic-edge/types"
+	"github.com/polygomic/polygomic-edge/validators"
 )
 
 const (

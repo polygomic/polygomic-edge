@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/contracts/abis"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/contracts/abis"
+	"github.com/polygomic/polygomic-edge/state/runtime"
+	"github.com/polygomic/polygomic-edge/types"
 	"github.com/stretchr/testify/assert"
 )
 

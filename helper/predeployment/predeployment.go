@@ -8,13 +8,13 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state"
-	itrie "github.com/0xPolygon/polygon-edge/state/immutable-trie"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/chain"
+	"github.com/polygomic/polygomic-edge/helper/hex"
+	"github.com/polygomic/polygomic-edge/state"
+	itrie "github.com/polygomic/polygomic-edge/state/immutable-trie"
+	"github.com/polygomic/polygomic-edge/state/runtime"
+	"github.com/polygomic/polygomic-edge/state/runtime/evm"
+	"github.com/polygomic/polygomic-edge/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

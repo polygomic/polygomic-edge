@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/network/grpc"
-	"github.com/0xPolygon/polygon-edge/syncer/proto"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/golang/protobuf/ptypes/empty"
+	"github.com/polygomic/polygomic-edge/network/grpc"
+	"github.com/polygomic/polygomic-edge/syncer/proto"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 var (

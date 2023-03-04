@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/0xPolygon/polygon-edge/chain"
+	"github.com/polygomic/polygomic-edge/chain"
 )
 
 type blake2f struct {

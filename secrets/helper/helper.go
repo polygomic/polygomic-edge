@@ -4,18 +4,18 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/awsssm"
-	"github.com/0xPolygon/polygon-edge/secrets/gcpssm"
-	"github.com/0xPolygon/polygon-edge/secrets/hashicorpvault"
-	"github.com/0xPolygon/polygon-edge/secrets/local"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
 	libp2pCrypto "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/polygomic/polygomic-edge/crypto"
+	"github.com/polygomic/polygomic-edge/helper/hex"
+	"github.com/polygomic/polygomic-edge/network"
+	"github.com/polygomic/polygomic-edge/secrets"
+	"github.com/polygomic/polygomic-edge/secrets/awsssm"
+	"github.com/polygomic/polygomic-edge/secrets/gcpssm"
+	"github.com/polygomic/polygomic-edge/secrets/hashicorpvault"
+	"github.com/polygomic/polygomic-edge/secrets/local"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 // SetupLocalSecretsManager is a helper method for boilerplate local secrets manager setup

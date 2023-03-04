@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/secrets"
 	"github.com/hashicorp/go-hclog"
+	"github.com/polygomic/polygomic-edge/secrets"
 
 	sm "cloud.google.com/go/secretmanager/apiv1"
 	smpb "google.golang.org/genproto/googleapis/cloud/secretmanager/v1"

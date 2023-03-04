@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/state"
+	"github.com/polygomic/polygomic-edge/types"
 	"github.com/stretchr/testify/assert"
 )
 

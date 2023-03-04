@@ -7,16 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/network/common"
-	"github.com/0xPolygon/polygon-edge/network/dial"
-	"github.com/0xPolygon/polygon-edge/network/discovery"
 	"github.com/armon/go-metrics"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/p2p/security/noise"
+	"github.com/polygomic/polygomic-edge/network/common"
+	"github.com/polygomic/polygomic-edge/network/dial"
+	"github.com/polygomic/polygomic-edge/network/discovery"
 	rawGrpc "google.golang.org/grpc"
 
-	peerEvent "github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/secrets"
 	"github.com/hashicorp/go-hclog"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/crypto"
@@ -26,6 +24,8 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/multiformats/go-multiaddr"
+	peerEvent "github.com/polygomic/polygomic-edge/network/event"
+	"github.com/polygomic/polygomic-edge/secrets"
 )
 
 const (

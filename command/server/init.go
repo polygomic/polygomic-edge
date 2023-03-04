@@ -6,16 +6,16 @@ import (
 	"math"
 	"net"
 
-	"github.com/0xPolygon/polygon-edge/command/server/config"
+	"github.com/polygomic/polygomic-edge/command/server/config"
 
-	"github.com/0xPolygon/polygon-edge/network/common"
+	"github.com/polygomic/polygomic-edge/network/common"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/server"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/polygomic/polygomic-edge/chain"
+	"github.com/polygomic/polygomic-edge/command/helper"
+	"github.com/polygomic/polygomic-edge/network"
+	"github.com/polygomic/polygomic-edge/secrets"
+	"github.com/polygomic/polygomic-edge/server"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 var (

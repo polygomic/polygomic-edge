@@ -5,10 +5,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
 	"github.com/google/uuid"
 	"github.com/hashicorp/go-hclog"
+	"github.com/polygomic/polygomic-edge/txpool/proto"
+	"github.com/polygomic/polygomic-edge/types"
 )
 
 type eventManager struct {
