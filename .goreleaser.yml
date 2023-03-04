@@ -74,8 +74,8 @@ archives:
 
 #nfpms:
 #  - vendor: 0xPolygon
-#    homepage: https://polygon.technology
-#    maintainer: Polygomic Edge Team <edge@polygon.technology>
+#    homepage: https://polygomic.com
+#    maintainer: Polygomic Edge Team <edge@polygomic.com>
 #    description:  A Framework for Building Ethereum-compatible Blockchain Networks
 #    license: GPLv3 LGPLv3
 #
@@ -85,8 +85,8 @@ archives:
 #      - rpm
 #
 #    contents:
-#      - src: polygon-edge.service
-#        dst: /lib/systemd/system/polygon-edge.service
+#      - src: polygomic-edge.service
+#        dst: /lib/systemd/system/polygomic-edge.service
 #        type: config
 #
 #    overrides:

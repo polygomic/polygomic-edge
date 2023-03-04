@@ -34,7 +34,7 @@ func TestHTTPServer(t *testing.T) {
 
 func Test_handleGetRequest(t *testing.T) {
 	var (
-		chainName = "polygon-edge-test"
+		chainName = "polygomic-edge-test"
 		chainID   = uint64(200)
 	)
 

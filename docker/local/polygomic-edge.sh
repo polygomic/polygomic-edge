@@ -2,7 +2,7 @@
 
 set -e
 
-POLYGON_EDGE_BIN=./polygon-edge
+POLYGOMIC_EDGE_BIN=./polygomic-edge
 GENESIS_PATH=/genesis/genesis.json
 
 case "$1" in
@@ -12,11 +12,11 @@ case "$1" in
           echo "Secrets have already been generated."
       else
           echo "Generating secrets..."
-          secrets=$("$POLYGON_EDGE_BIN" secrets init --num 4 --data-dir data- --json)
+          secrets=$("$POLYGOMIC_EDGE_BIN" secrets init --num 4 --data-dir data- --json)
           echo "Secrets have been successfully generated"
 
           echo "Generating genesis file..."
-          "$POLYGON_EDGE_BIN" genesis \
+          "$POLYGOMIC_EDGE_BIN" genesis \
             --dir "$GENESIS_PATH" \
             --consensus ibft \
             --ibft-validators-prefix-path data- \
@@ -32,8 +32,8 @@ case "$1" in
           echo "Waiting 1s for genesis file $GENESIS_PATH to be created by init container..."
           sleep 1
       done
-      echo "Executing polygon-edge..."
-      exec "$POLYGON_EDGE_BIN" "$@"
+      echo "Executing polygomic-edge..."
+      exec "$POLYGOMIC_EDGE_BIN" "$@"
       ;;
 
 esac
