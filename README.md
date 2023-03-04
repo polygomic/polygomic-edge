@@ -7,12 +7,12 @@ Polygomic Edge is a modular and extensible framework for building Ethereum-compa
 
 To find out more about Polygomic, visit the [official website](https://polygon.technology/).
 
-WARNING: This is a work in progress so architectural changes may happen in the future. The code has not been audited yet, so please contact [Polygon Edge team](mailto:edge@polygon.technology) if you would like to use it in production.
+WARNING: This is a work in progress so architectural changes may happen in the future. The code has not been audited yet, so please contact [Polygomic Edge team](mailto:edge@polygon.technology) if you would like to use it in production.
 
 ## Documentation 📝
 
 If you'd like to learn more about the Polygon Edge, how it works and how you can use it for your project,
-please check out the **[Polygon Edge Documentation](https://docs.polygon.technology/docs/edge/overview/)**.
+please check out the **[Polygomic Edge Documentation](https://docs.polygon.technology/docs/edge/overview/)**.
 
 ---
 
