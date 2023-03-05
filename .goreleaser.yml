@@ -73,7 +73,7 @@ archives:
       - README.md
 
 #nfpms:
-#  - vendor: 0xPolygon
+#  - vendor: Polygomic
 #    homepage: https://polygomic.com
 #    maintainer: Polygomic Edge Team <edge@polygomic.com>
 #    description:  A Framework for Building Ethereum-compatible Blockchain Networks

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/hex"
 
-	"github.com/0xPolygon/go-ibft/messages"
-	protoIBFT "github.com/0xPolygon/go-ibft/messages/proto"
+	"github.com/polygomic/go-ibft/messages"
+	protoIBFT "github.com/polygomic/go-ibft/messages/proto"
 	"github.com/polygomic/polygomic-edge/types"
 )
 

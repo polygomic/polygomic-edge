@@ -6,7 +6,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/0xPolygon/go-ibft/messages"
+	"github.com/polygomic/go-ibft/messages"
 	"github.com/polygomic/polygomic-edge/consensus"
 	"github.com/polygomic/polygomic-edge/consensus/ibft/signer"
 	"github.com/polygomic/polygomic-edge/helper/hex"

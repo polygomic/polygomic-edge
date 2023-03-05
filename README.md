@@ -1,7 +1,7 @@
 
 ![Banner](.github/banner.jpg)
 [![codecov](https://codecov.io/gh/0xPolygon/polygomic-edge/branch/develop/graph/badge.svg?token=PXEADRC1IW)](https://codecov.io/gh/0xPolygon/polygomic-edge)
-## Polygon Edge
+## Polygomic Edge
 
 Polygomic Edge is a modular and extensible framework for building Ethereum-compatible blockchain networks.
 
@@ -11,7 +11,7 @@ WARNING: This is a work in progress so architectural changes may happen in the f
 
 ## Documentation 📝
 
-If you'd like to learn more about the Polygon Edge, how it works and how you can use it for your project,
+If you'd like to learn more about the Polygomic Edge, how it works and how you can use it for your project,
 please check out the **[Polygomic Edge Documentation](https://docs.polygomic.com/docs/edge/overview/)**.
 
 ---

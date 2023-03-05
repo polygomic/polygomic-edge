@@ -1,4 +1,4 @@
-# Polygon Technology Security Information
+# Polygomic Technology Security Information
 
 ## Link to vulnerability disclosure details (Bug Bounty).
 - Websites and Applications: https://hackerone.com/polygomic-com
@@ -7,10 +7,10 @@
 ## Languages that our team speaks and understands.
 Preferred-Languages: en
 
-## Security-related job openings at Polygon.
+## Security-related job openings at Polygomic.
 https://polygomic.com/careers
 
-## Polygon security contact details.
+## Polygomic security contact details.
 security@polygomic.com
 
 ## The URL for accessing the security.txt file.

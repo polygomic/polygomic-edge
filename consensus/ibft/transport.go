@@ -1,8 +1,8 @@
 package ibft
 
 import (
-	"github.com/0xPolygon/go-ibft/messages/proto"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/polygomic/go-ibft/messages/proto"
 	"github.com/polygomic/polygomic-edge/network"
 	"github.com/polygomic/polygomic-edge/types"
 )
